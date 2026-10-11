@@ -5,12 +5,13 @@ import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.12.5/firebas
 import { getAuth } from 'https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js';
 
 const firebaseConfig = {
-  apiKey: 'PASTE_API_KEY_HERE',
-  authDomain: 'PASTE_PROJECT_ID_HERE.firebaseapp.com',
-  projectId: 'PASTE_PROJECT_ID_HERE',
-  storageBucket: 'PASTE_PROJECT_ID_HERE.appspot.com',
-  messagingSenderId: 'PASTE_MESSAGING_SENDER_ID_HERE',
-  appId: 'PASTE_APP_ID_HERE'
+apiKey: "AIzaSyCUse5AJHiXWkxIggGR6ytB265HlFG4ZUc",
+authDomain: "cinehubhd-official.firebaseapp.com",
+projectId: "cinehubhd-official",
+storageBucket: "cinehubhd-official.firebasestorage.app",
+messagingSenderId: "149165059637",
+appId: "1:149165059637:web:4af107a4fdd43b2e72cb7c",
+measurementId: "G-R63JHPHVSZ"
 };
 
 const app = initializeApp(firebaseConfig);
